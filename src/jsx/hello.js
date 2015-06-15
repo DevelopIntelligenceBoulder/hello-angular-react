@@ -18,7 +18,7 @@
 		 *  Utilizes the properties and state placed into it.
 		 */
 		render: function() {
-			//Rendered HTML with the component state
+			//Rendered HTML with the component properties
 			return (
 				<h1>Hello {this.props.place}</h1>
 			)
