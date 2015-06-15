@@ -6,10 +6,10 @@
 	<body ng-app="hello" ng-controller="AppController as ac">
 
 		<!-- With React Component ... passing in controller instance -->
-		<react-component name="Hello" props="ac"></react-component>
+		<react-component name="DI.App.Hello" props="ac"></react-component>
 
 		<!-- With Angular Directive ... abstracting our React Component -->
-		<di-hello place="{{ac.place}}"></di-hello>
+		<di-hello place="ac.place"></di-hello>
 
 		<!-- 3rd party libs -->
 		<script src="/node_modules/angular/angular.js"></script>
