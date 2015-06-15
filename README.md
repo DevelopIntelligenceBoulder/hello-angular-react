@@ -1,5 +1,5 @@
 # hello-angular-react
-A simple example of Hello World written in (Angular 1.x)[https://angularjs.org/] and utilizing (React)[https://facebook.github.io/react/].
+A simple example of Hello World written in [Angular 1.x](https://angularjs.org/) and utilizing [React](https://facebook.github.io/react/).
 
 ##What is this?
 This example shows how to bring React Components into the Angular Framework architecture.
