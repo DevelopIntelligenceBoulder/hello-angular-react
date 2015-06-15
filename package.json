@@ -1,0 +1,24 @@
+{
+  "name": "hello-angular-react",
+  "version": "0.0.1",
+  "description": "Hello World utilizing React within Angular 1.x",
+  "scripts": {
+    "start": "node server.js",
+    "prestart": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevelopIntelligenceBoulder/hello-angular-react.git"
+  },
+  "author": "Kamren Zorgdrager <kamrenz@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/DevelopIntelligenceBoulder/hello-angular-react",
+  "devDependencies": {
+    "express": "^4.12.4"
+  },
+  "dependencies": {
+    "angular": "^1.4.0",
+    "react": "^0.13.3",
+    "ngreact": "^0.1.5"
+  }
+}
