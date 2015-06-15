@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hello World: Angular 1.x utilizing React</title>
+	</head>
+	<body ng-app="hello" ng-controller="AppController as ac">
+
+		<!-- With React Component ... passing in controller instance -->
+		<react-component
+				name="Hello"
+				props="ac"></react-component>
+
+		<!-- With Angular Directive ... abstracting our React Component -->
+		<di-hello place="{{ac.place}}"></di-hello>
+
+		<!-- 3rd party libs -->
+		<script src="/node_modules/angular/angular.js"></script>
+		<script src="/node_modules/react/dist/react.js"></script>
+		<script src="/node_modules/ngreact/ngReact.js"></script>
+
+		<!-- Application libs -->
+		<script src="js/main.js"></script>
+		<script src="js/application-controller.js"></script>
+		<script src="component/hello.js"></script>
+		<script src="js/hello-service.js"></script>
+		<script src="js/hello-directive.js"></script>
+	</body>
+</html>
