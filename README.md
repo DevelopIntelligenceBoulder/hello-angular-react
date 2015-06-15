@@ -22,7 +22,7 @@ The React Hello Component that contains the transformed JSX from jsx/hello.js. T
 An Angular Value Service that wraps the React Hello Component and brings it within the Angular eco-system. Allows the Hello Component to be dependency injected into the application. The service is utilized in the Example 1 React Component `name` property. It is also dependency injected within the diHello directive.
  
 ###Within the js/hello-directive.js
-An Angular Directive that utilizes a React Component. This directive has an Angular Value Service wrapped React Component dependency injected into it (i.e. `hello`). Also, a reactDirective service is utilized via (ngReact)[https://github.com/davidchang/ngReact] is utilized to build the Angular Directive Definition Object for the directive. 
+An Angular Directive that utilizes a React Component. This directive has an Angular Value Service wrapped React Component dependency injected into it (i.e. `hello`). Also, a reactDirective service is utilized via [ngReact](https://github.com/davidchang/ngReact) is utilized to build the Angular Directive Definition Object for the directive. 
 
 ##Instructions
 1. Install [NodeJS](https://nodejs.org/)
