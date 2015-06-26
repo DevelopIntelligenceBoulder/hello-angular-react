@@ -29,7 +29,8 @@ An Angular Directive that utilizes a React Component. This directive has an Angu
 2. Run `npm start` to get the application running on the web server
     * Packages needed for this application will be installed (i.e. Angular, React, ngReact and Express)
     * The Node/Express Web Server will start
-4. Go to `http://localhost:8080/src` in your web browser
+3. Go to `http://localhost:8080/src` in your web browser
+4. Try this code out in this [Plunker](https://github.com/DevelopIntelligenceBoulder/hello-angular-react)
 
 ##Where to go from here?
 [DevelopIntelligence](http://www.developintelligence.com/) offers a variety of [classes on Angular](http://www.developintelligence.com/catalog/web-development-training/angularjs). Check out [Advanced AngularJS](http://www.developintelligence.com/catalog/web-development-training/angularjs/advanced-angularjs-development) or the [AngularJS Boot Camp](http://www.developintelligence.com/catalog/web-development-training/angularjs/angularjs-boot-camp) to get your team up to speed.
